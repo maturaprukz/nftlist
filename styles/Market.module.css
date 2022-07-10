@@ -1,0 +1,14 @@
+.nftList {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+    border: 1px solid black;
+    margin: 5rem 4rem;
+}
+
+
