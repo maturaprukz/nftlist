@@ -12,10 +12,12 @@ export default function market() {
       <card className={styles.nftList}>
         {Object.entries(nft).map((value, index) => {
           return (
-            <detail className={styles.card} key={index}>
+            <div className={styles.card} key={index}>
               <Link href="../nft/[id]" as={"/nft/" + value[0]}>
                 <a>
-                  <img src={value[1].image} style={{ height: 350, width: 400}} />
+                  <div className={styles.imageCard}>
+                    <img src={value[1].image} style={{ height: 350, width: 400}} />
+                  </div>
                   <div className={styles.textCard}>
                     <h2>{value[1].title}</h2>
                     <p>Created By : {value[1].created}</p>
@@ -24,7 +26,7 @@ export default function market() {
                   </div>
                 </a>
               </Link>
-            </detail>
+            </div>
           );
         })}
       </card>

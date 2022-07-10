@@ -1,7 +1,6 @@
 .nftList {
     display: flex;
     justify-content: center;
-    font-family: sans-serif;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -9,6 +8,31 @@
 .card {
     border: 1px solid black;
     margin: 5rem 4rem;
+    
 }
 
 
+@media screen and (max-width: 390px ) and (max-height:844px) {
+    .nftList {
+        display: inline;
+        justify-content: center;
+        font-family: 'Courier New', Courier, monospace;
+        box-sizing: border-box;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);  
+        
+    }
+
+    .textCard{
+        padding-top: 5rem;
+    }
+
+    .card {
+        column-count: 2;
+        border: 15px;
+        width: 800px;
+        margin: 5rem 8rem;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); 
+        
+        
+    }
+  }

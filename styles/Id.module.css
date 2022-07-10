@@ -1,12 +1,11 @@
 .nftContainer {
     justify-content: center;
-    font-family: sans-serif;
     text-align: center;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.nftBody{
+.nftBody {
     display: flex;
     border: 15px;
     width: 900px;
@@ -14,7 +13,7 @@
     /* box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);  */
 }
 
-.nftText{
+.nftText {
     width: 400px;
     margin: 2rem auto;
     border: 15px;
@@ -39,8 +38,8 @@
     display: flex;
 }
 
-.placeBid{
-    background-color: #0091EA; 
+.placeBid {
+    background-color: #0091EA;
     border-radius: 30px;
     border-color: #0091EA;
     color: white;
@@ -51,4 +50,55 @@
     margin: 4px 2px;
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
+}
+
+
+@media screen and (max-width: 390px) and (max-height:844px) {
+    .nftContainer {
+        justify-content: center;
+        text-align: center;
+        box-sizing: border-box;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .nftBody {
+        display: flex;
+        border: 15px;
+        width: 900px;
+        margin: 8rem 6rem;
+    }
+
+    .nftText {
+        width: 400px;
+        margin: 2rem auto;
+        border: 15px;
+    }
+    .nftSubtext1 {
+        justify-content: space-between;
+        margin-left: 3rem;
+        margin-right: 4rem;
+        display: flex;
+    }
+
+    .nftSubtext2 {
+        justify-content: space-between;
+        margin-left: 3rem;
+        margin-right: 4rem;
+        display: flex;
+    }
+
+    .placeBid {
+        background-color: #0091EA;
+        border-radius: 30px;
+        border-color: #0091EA;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
 }
