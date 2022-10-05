@@ -1,5 +1,5 @@
 //import {useRouter} from 'next/router'
-import nft from "../../../nft.json";
+import nft from "../../nft.json";
 import styles from "../../styles/Id.module.css";
 import Nav from "../../component/Nav";
 

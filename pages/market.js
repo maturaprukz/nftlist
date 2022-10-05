@@ -1,4 +1,4 @@
-import nft from "../../nft.json";
+import nft from "../nft.json";
 import Link from "next/link";
 import Nav from "../component/Nav";
 import styles from "../styles/Market.module.css";
